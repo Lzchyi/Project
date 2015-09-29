@@ -13,13 +13,13 @@ This project is mainly to create a file repository system using client-server TC
 
 We have followed the following requirements while developing.
 
-IPC -
+IPC - Using PIPE and Message Queue on CLIENT side
 
-Process Control - 
+Process Control - Using fork() and signals on CLIENT side
 
-Socket - 
+Socket - TCP on BOTH sides
 
-Others -
+Others - I/O Multiplexing on SERVER side
 
 Work Distribution
 
