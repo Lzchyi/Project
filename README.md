@@ -69,3 +69,9 @@ By default client trying connect to server with IP 127.0.0.1 and 8000/tcp port.
 To change it:
 
 ./client <address> <port>
+
+
+Please key in "auth" for login.
+
+username: root
+password: passwd123
