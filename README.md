@@ -1,11 +1,10 @@
 # Project
 
 
-Pang Yu Hau 1112703577
 
-Lee Zhen Chyi 1112703477
-
-Lecturer: Dr. Anang
+    Pang Yu Hau 1112703577
+    Lee Zhen Chyi 1112703477
+    Lecturer: Dr. Anang
 
 Tasks
 
@@ -13,16 +12,13 @@ This project is mainly to create a file repository system using client-server TC
 
 We have followed the following requirements while developing.
 
-IPC - Using PIPE and Message Queue on CLIENT side
-
-Process Control - Using fork() and signals on CLIENT side
-
-Socket - TCP on BOTH sides
-
-Others - I/O Multiplexing on SERVER side
+    IPC - Using PIPE and Message Queue on CLIENT side
+    Process Control - Using fork() and signals on CLIENT side
+    Socket - TCP on BOTH sides
+    Others - I/O Multiplexing on SERVER side
 
 
-We also try to include the bonus part. For now, we only make the user (auth) login.
+We also try to include the bonus part. For now, we are only able to make the user (auth) login. We also tried to track client's ip address, however, it was not function.
 
 Work Distribution
 
