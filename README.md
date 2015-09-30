@@ -21,6 +21,9 @@ Socket - TCP on BOTH sides
 
 Others - I/O Multiplexing on SERVER side
 
+
+We also try to include the bonus part. For now, we only make the user (auth) login.
+
 Work Distribution
 
 Pang
