@@ -79,3 +79,8 @@ Please key in 'auth' (after you type 'help' for menu) for login.
 
     username: root
     password: passwd123
+
+For admin
+
+    username: admin
+    password: somepasswd
