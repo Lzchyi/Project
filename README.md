@@ -74,4 +74,5 @@ To change it:
 Please key in "auth" for login.
 
 username: root
+
 password: passwd123
