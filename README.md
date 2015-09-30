@@ -8,7 +8,7 @@
 
 Tasks
 
-This project is mainly to create a file repository system using client-server TCP/IP model in c program. It is used for the user file storage.
+This project is mainly to create a file repository system using client-server TCP/IP model in c or c++ program. We use c++ to build the system. It is used for the user file storage.
 
 We have followed the following requirements while developing.
 
