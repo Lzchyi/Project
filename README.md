@@ -18,7 +18,7 @@ We have followed the following requirements while developing.
     Others - I/O Multiplexing on SERVER side
 
 
-We also try to include the bonus part. For now, we are only able to make the user (auth) login. We also tried to track client's ip address, however, it was not function.
+We also try to include the bonus part. For now, we are only able to make the user (auth) login with certain username and password (can be viewed via scrolling down). We also tried to track client's ip address, however, it was not function.
 
 Work Distribution
 
