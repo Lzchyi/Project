@@ -35,6 +35,9 @@ void Shell::handle_cmd_help()
     out << "help     - print this help" << std::endl;
     out << "auth     - authorize on remote server" << std::endl;
     out << "upload   - upload file to remote server" << std::endl;
+    out << "create   - create file" << std::endl;
+    out << "copy     - copy file" << std::endl;
+    out << "delete   - delete file" << std::endl;
     out << "download - fetch file from remote server" << std::endl;
     out << "ls       - list files on remote server" << std::endl;
     out << "quit     - quit from program" << std::endl;
@@ -73,6 +76,45 @@ void Shell::handle_cmd_upload()
 
     send_upload_request(filename);
 }
+
+//----------------------------------------------------------------------
+
+/*void Shell::handle_cmd_create()
+{
+    std::cout << std::endl;
+
+    std::cout << "please enter file name to create: ";
+    std::string filename;
+    std::getline(std::cin, filename);
+
+    send_create_request(filename);
+}*/
+
+//----------------------------------------------------------------------
+
+/*void Shell::handle_cmd_copy()
+{
+    std::cout << std::endl;
+
+    std::cout << "please enter file name to copy: ";
+    std::string filename;
+    std::getline(std::cin, filename);
+
+    send_copy_request(filename);
+}*/
+
+//----------------------------------------------------------------------
+
+/*void Shell::handle_cmd_delete()
+{
+    std::cout << std::endl;
+
+    std::cout << "please enter file name to delete: ";
+    std::string filename;
+    std::getline(std::cin, filename);
+
+    send_delete_request(filename);
+}*/
 
 //----------------------------------------------------------------------
 
@@ -118,6 +160,15 @@ void Shell::process_cmd(std::string cmd)
     }
     else if (cmd == "upload") {
         handle_cmd_upload();
+    }
+    else if (cmd == "create") {
+        //handle_cmd_create();
+    }
+    else if (cmd == "copy") {
+        //handle_cmd_copy();
+    }
+    else if (cmd == "delete") {
+        //handle_cmd_delete();
     }
     else if (cmd == "download") {
         handle_cmd_download();
